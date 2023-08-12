@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Generator</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>Captcha Generator</header>
+        <div class="input-field captcha">
+            <input type="text" value="" disabled>
+            <button class="refresh">
+                <i class="fa-solid fa-rotate"></i>
+            </button>
+        </div>
+        <div class="input-field captcha-input">
+            <input type="text" placeholder="Masukan captcha..">
+        </div>
+        <div class="message">Captcha yang dimasukan benar.</div>
+        <div class="input-field button disabled">
+            <button>Submit</button>
+        </div>
+    </div>
+    <!-- Javascript -->
+    <script src="main.js"></script>
+</body>
+</html>
